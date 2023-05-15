@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 20px;
+}
+
+#main{
+    background-color: ghostwhite;
+    color: #333;
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 20px;
+}
+
+header h1{
+    font-size: 3em;
+    margin: 30px auto 15px auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+header p{
+    text-align: center;
+}
+
+
+
+#image{
+    display: block;
+    max-width: 100%;
+}
+
+span{
+    font-weight: bold;
+}
+
+#tribute-info{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+
+.tribute-intro{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ ul{
+    display: inline-block;
+    text-align: left;
+}
+
+ul li{
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+blockquote{
+    text-align: left;
+}
+
+#tribute-info p{
+    font-weight: bold;
+}
+
